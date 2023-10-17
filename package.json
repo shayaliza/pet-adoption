@@ -6,8 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "devs": "nodemon server.js"
+    "lint": "next lint"
+  
   },
   "dependencies": {
     "express": "^4.18.2",

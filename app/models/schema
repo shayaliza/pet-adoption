@@ -1,0 +1,10 @@
+const mongoose = require("mongoose");
+
+const petSchema = new mongoose.Schema({
+  name: String,
+  gender: String,
+  location: String,
+  image: String,
+});
+
+const Pet = mongoose.model("Pet", petSchema);

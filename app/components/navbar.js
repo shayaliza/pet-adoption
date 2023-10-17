@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 function Navbar() {
   return (
     <nav className="bg-blue-500 p-4">
@@ -10,19 +10,19 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a href="/about" className="text-white">
-            About
-          </a>
+          <Link href="/pages/aboutus.js" className="text-white">
+            About Us
+          </Link>
         </li>
         <li>
-          <a href="/services" className="text-white">
-            Services
-          </a>
+          <Link href="/pages/whyadopt.js" className="text-white">
+            Why Adopt
+          </Link>
         </li>
         <li>
-          <a href="/contact" className="text-white">
-            Contact
-          </a>
+          <Link href="/pages/signup.js" className="text-white">
+            Signup
+          </Link>
         </li>
       </ul>
     </nav>
